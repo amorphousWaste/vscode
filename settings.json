@@ -13,9 +13,14 @@
     "workbench.productIconTheme": "material-product-icons",
     "redhat.telemetry.enabled": false,
     "editor.renderWhitespace": "all",
-    "editor.fontFamily": "'Roboto Mono'",
+    "editor.fontFamily": "'Alma Mono', 'Fira Code', 'Roboto Mono'",
+    "editor.fontLigatures": true,
     "editor.fontSize": 13,
-    "editor.fontWeight": "350",
+    "editor.fontWeight": "400",
+    "editor.rulers": [79],
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylamaEnabled": true,
     "workbench.colorCustomizations": {
         "editor.foreground": "#dadada",
         "editor.background": "#181818",
@@ -40,7 +45,7 @@
                     "storage.type.string",
                 ],
                 "settings": {
-                    "foreground": "#abd7ff"
+                    "foreground": "#abd7ff",
                 }
             },
             {
@@ -161,6 +166,30 @@
                 "scope": "keyword.operator.logical",
                 "settings": {
                     "foreground": "#995dc7",
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.arguments",
+                    "punctuation.definition.dictionary",
+                    "punctuation.definition.parameters",
+                    "meta.function.parameters",
+                    "meta.function-call",
+                    "meta.function",
+                ],
+                "settings": {
+                    "foreground": "#00bcd4",
+                }
+            },
+                {
+                "scope": [
+                    "punctuation.definition.arguments",
+                    "punctuation.definition.dictionary",
+                    "punctuation.definition.parameters",
+                    "punctuation.definition.array",
+                ],
+                "settings": {
+                    "foreground": "#00bcd4",
                 }
             },
         ],
