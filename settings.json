@@ -1,6 +1,5 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "python.pythonPath": "/usr/local/bin/python3",
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -12,18 +11,33 @@
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.productIconTheme": "material-product-icons",
     "redhat.telemetry.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.showTabs": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    // Font
     "editor.renderWhitespace": "all",
-    "editor.fontFamily": "'Alma Mono', 'Fira Code', 'Roboto Mono'",
+    "editor.fontFamily": "'Fira Code', 'Roboto Mono'",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
-    "editor.fontWeight": "400",
+    "editor.fontWeight": "300",
     "editor.rulers": [79],
+    // Linting
     "python.linting.flake8Enabled": false,
     "python.linting.enabled": true,
     "python.linting.pylamaEnabled": true,
+    // Style
     "workbench.colorCustomizations": {
         "editor.foreground": "#dadada",
         "editor.background": "#181818",
+        "editorUnnecessaryCode.border": "#dadada",
+        "editorUnnecessaryCode.opacity": "#ffff",
+        "sideBar.background": "#222222",
+        "statusBar.background": "#222222",
+        "titleBar.inactiveBackground": "#222222",
+        "titleBar.activeBackground": "#222222",
+        "editorGroupHeader.tabsBackground": "#222222",
     },
     // "editor.semanticTokenColorCustomizations": {
     //     "enabled": true, // enable for all themes
@@ -44,9 +58,7 @@
                     "punctuation.definition.string",
                     "storage.type.string",
                 ],
-                "settings": {
-                    "foreground": "#abd7ff",
-                }
+                "settings": {"foreground": "#abd7ff"}
             },
             {
                 "scope": [
@@ -73,57 +85,41 @@
                     "support.variable.magic",
                     "support.function.magic",
                 ],
-                "settings": {
-                    "foreground": "#fbf6a7",
-                }
+                "settings": {"foreground": "#fff459"}
             },
             {
                 "scope": [
                     "variable.parameter.function",
                     "variable.parameter"
                 ],
-                "settings": {
-                    "foreground": "#fbb16b",
-                }
+                "settings": {"foreground": "#fbb16b"}
             },
             {
                 "scope": [
                     "comment",
                     "punctuation.definition.comment"
                 ],
-                "settings": {
-                    "foreground": "#555555",
-                }
+                "settings": {"foreground": "#8d8d8d"}
             },
             {
                 "scope": "constant.language",
-                "settings": {
-                    "foreground": "#35F935",
-                }
+                "settings": {"foreground": "#35F935"}
             },
             {
                 "scope": "support.type.python",
-                "settings": {
-                    "foreground": "#3180db",
-                }
+                "settings": {"foreground": "#3180db"}
             },
             {
                 "scope": "support.type.exception",
-                "settings": {
-                    "foreground": "#ff5454"
-                }
+                "settings": {"foreground": "#ff5454"}
             },
             {
                 "scope": "constant.numeric",
-                "settings": {
-                    "foreground": "#c857f5",
-                }
+                "settings": {"foreground": "#c857f5"}
             },
             {
                 "scope": "constant.other.caps",
-                "settings": {
-                    "foreground": "#488c6e",
-                }
+                "settings": {"foreground": "#488c6e"}
             },
             {
                 "scope": [
@@ -131,42 +127,30 @@
                     "punctuation.section.class",
                     "punctuation.separator",
                 ],
-                "settings": {
-                    "foreground": "#999999",
-                }
+                "settings": {"foreground": "#999999"}
             },
             {
                 "scope": [
                     "keyword.operator.comparison",
                     "keyword.operator.assignment",
                 ],
-                "settings": {
-                    "foreground": "#ffffff",
-                }
+                "settings": {"foreground": "#ffffff"}
             },
             {
                 "scope": "entity.name.tag.named.group.regexp",
-                "settings": {
-                    "foreground": "#619258",
-                }
+                "settings": {"foreground": "#619258"}
             },
             {
                 "scope": "meta.function-call.generic",
-                "settings": {
-                    "foreground": "#4b68be",
-                }
+                "settings": {"foreground": "#4b68be"}
             },
             {
                 "scope": "meta.function-call.arguments",
-                "settings": {
-                    "foreground": "#ffca57",
-                }
+                "settings": {"foreground": "#ffe4aa"}
             },
             {
                 "scope": "keyword.operator.logical",
-                "settings": {
-                    "foreground": "#995dc7",
-                }
+                "settings": {"foreground": "#995dc7"}
             },
             {
                 "scope": [
@@ -177,9 +161,7 @@
                     "meta.function-call",
                     "meta.function",
                 ],
-                "settings": {
-                    "foreground": "#00bcd4",
-                }
+                "settings": {"foreground": "#00bcd4"}
             },
                 {
                 "scope": [
@@ -188,9 +170,11 @@
                     "punctuation.definition.parameters",
                     "punctuation.definition.array",
                 ],
-                "settings": {
-                    "foreground": "#00bcd4",
-                }
+                "settings": {"foreground": "#00bcd4"}
+            },
+            {
+                "scope": "source",
+                "settings": {"foreground": "#dadada"}
             },
         ],
     },
