@@ -2,6 +2,7 @@
 ## Packages ##
 -   Atom Keymap
 -   HTML CSS Cupport
+-   HTML Preview
 -   HTML Snippets
 -   indent-rainbow
 -   IntelliSense for CSS
