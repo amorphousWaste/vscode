@@ -3,6 +3,7 @@
 -   Atom Keymap
 -   HTML CSS Cupport
 -   HTML Snippets
+-   indent-rainbow
 -   IntelliSense for CSS
 -   json
 -   Jupyter
@@ -17,6 +18,7 @@
 -   React PropTypes Intellisense
 -   Render Line Endings
 -   Sublime Material Theme
+-   TODO Highlight
 -   Visual Studio Intellisense
 -   vue
 -   YAML
