@@ -11,7 +11,7 @@
 -   Jupyter Keymap
 -   Jupyter Notebook Renderers
 -   MagicPython
--   Markdoen All in One
+-   Markdown All in One
 -   Material Icon Theme
 -   Material Product Icons
 -   Pylance
