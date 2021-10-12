@@ -1,6 +1,7 @@
 # VSCode Settings #
 ## Packages ##
 -   Atom Keymap
+-   Bookmarks
 -   HTML CSS Cupport
 -   HTML Preview
 -   HTML Snippets
