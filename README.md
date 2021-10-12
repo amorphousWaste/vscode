@@ -5,7 +5,6 @@
 -   HTML CSS Cupport
 -   HTML Preview
 -   HTML Snippets
--   indent-rainbow
 -   IntelliSense for CSS
 -   json
 -   Jupyter
@@ -17,7 +16,6 @@
 -   Material Product Icons
 -   Pylance
 -   Python
--   React PropTypes Intellisense
 -   Render Line Endings
 -   Sublime Material Theme
 -   TODO Highlight
@@ -25,6 +23,7 @@
 -   vue
 -   YAML
 -   Ansible (Disabled)
+-   indent-rainbow (Disabled)
 
 ## Theme ##
 Sublime Material Theme
