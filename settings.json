@@ -16,6 +16,7 @@
     "editor.guides.bracketPairs": true,
     "editor.guides.indentation": true,
     "editor.guides.highlightActiveIndentation": true,
+    "editor.cursorBlinking": "smooth",
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
     "[python]": {
@@ -45,6 +46,7 @@
         "titleBar.inactiveBackground": "#222222",
         "titleBar.activeBackground": "#222222",
         "editorGroupHeader.tabsBackground": "#222222",
+        "editorCursor.foreground": "#ff9900",
     },
     // "editor.semanticTokenColorCustomizations": {
     //     "enabled": true, // enable for all themes
